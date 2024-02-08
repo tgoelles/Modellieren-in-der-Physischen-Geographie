@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
 // https://github.com/microsoft/vscode-dev-containers/tree/master/containers/python-3-miniconda
 {
-	"name": "test",
+	"name": "Modellieren",
 	"context": "..",
 	"dockerFile": "Dockerfile",
 	"customizations": {
@@ -9,21 +9,11 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-toolsai.jupyter",
-				"ms-python.black-formatter",
-				"ms-python.mypy-type-checker",
 				"njpwerner.autodocstring",
-				"ms-azuretools.vscode-docker",
-				"mhutchie.git-graph",
-				"eamodio.gitlens",
-				"tomoki1207.pdf",
-				"ms-azuretools.vscode-docker",
 				"streetsidesoftware.code-spell-checker",
 				"oderwat.indent-rainbow",
-				"GitHub.vscode-pull-request-github",
 				"charliermarsh.ruff",
 				"tamasfe.even-better-toml",
-				"GitHub.copilot",
-				"GitHub.copilot-chat"
 			],
 			"settings": {
 				"editor.formatOnSave": true,
