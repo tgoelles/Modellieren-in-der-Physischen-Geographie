@@ -15,7 +15,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Add python packages to the environment.yml file and uncommend here
 SHELL ["/bin/bash", "-c"]
 
-COPY .devcontainer/environment.yml /tmp/environment.yml
+COPY environment.yml /tmp/environment.yml
 RUN conda env update --name base --file /tmp/environment.yml && \
     conda clean --all --yes
 
