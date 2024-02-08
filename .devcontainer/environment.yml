@@ -1,33 +1,20 @@
 name: base
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - numpy
   - scipy
   - pandas
-  - shapely
   - matplotlib
-  - Pillow
-  - netcdf4
-  - scikit-image
+  - shapely
+  - requests
   - configobj
+  - netcdf4
   - xarray
-  - pytest
-  - dask
-  - bottleneck
-  - pyproj
-  - cartopy
-  - geopandas
-  - rasterio
-  - rioxarray
-  - seaborn
   - pytables
-  - salem
-  - motionless
+  - pytest
+  - seaborn
   - pip
   - pip:
-      - joblib
-      - progressbar2
       - oggm
       - git+https://github.com/OGGM/oggm-edu
