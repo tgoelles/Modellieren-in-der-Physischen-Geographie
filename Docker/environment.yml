@@ -17,4 +17,5 @@ dependencies:
   - pip
   - pip:
       - oggm
+      - SALib
       - git+https://github.com/OGGM/oggm-edu
