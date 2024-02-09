@@ -1,1 +1,1 @@
-FROM ghcr.io/tgoelles/Modellieren-in-der-Physischen-Geographie:main
+FROM ghcr.io/tgoelles/modellieren-in-der-physischen-geographie:main
