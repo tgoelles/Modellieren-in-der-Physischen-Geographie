@@ -8,8 +8,8 @@ name: Docker
 on:
   push:
     paths:
-      - "Docker/environment.yml"
       - "Docker/Dockerfile"
+      - "Docker/environment.yml"
   workflow_dispatch:
     inputs:
       tag:
