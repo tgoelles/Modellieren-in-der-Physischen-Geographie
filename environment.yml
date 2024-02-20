@@ -1,0 +1,21 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - shapely
+  - requests
+  - configobj
+  - netcdf4
+  - xarray
+  - pytables
+  - pytest
+  - seaborn
+  - pip
+  - pip:
+      - oggm
+      - SALib
+      - git+https://github.com/OGGM/oggm-edu

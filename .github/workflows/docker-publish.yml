@@ -9,7 +9,7 @@ on:
   push:
     paths:
       - "Docker/Dockerfile"
-      - "Docker/environment.yml"
+      - "environment.yml"
   workflow_dispatch:
     inputs:
       tag:
