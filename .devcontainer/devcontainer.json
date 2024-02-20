@@ -1,7 +1,7 @@
 {
 	"name": "Modellieren",
 	"context": "..",
-	"dockerFile": "Dockerfile",
+	"dockerFile": "../Dockerfile",
 	"customizations": {
 		"vscode": {
 			"extensions": [
