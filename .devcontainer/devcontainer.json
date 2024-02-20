@@ -2,6 +2,7 @@
 	"name": "Modellieren",
 	"context": "..",
 	"dockerFile": "../Dockerfile",
+	"containerUser": "unigraz",
 	"customizations": {
 		"vscode": {
 			"extensions": [
