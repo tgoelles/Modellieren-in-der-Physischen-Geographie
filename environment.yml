@@ -19,3 +19,4 @@ dependencies:
       - oggm
       - SALib
       - git+https://github.com/OGGM/oggm-edu
+      - cartopy
