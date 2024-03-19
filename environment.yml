@@ -15,8 +15,12 @@ dependencies:
   - pytest
   - seaborn
   - pip
+  - geopandas
   - pip:
       - oggm
       - SALib
       - git+https://github.com/OGGM/oggm-edu
       - cartopy
+      - salem
+      - rasterio
+      - scikit-image
